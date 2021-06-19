@@ -1,0 +1,133 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Untitled Document</title>
+<link rel="stylesheet" type="text/css" href="css/style.CSS"/>
+</head>
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.8/css/all.css" integrity="sha384-3AB7yXWz4OeoZcPbieVW64vVXEwADiYyAEhwilzWsLw+9FgqpyjjStpPnpBO8o8S" crossorigin="anonymous">
+<body>
+	<section>
+		<!--navigation------------->
+		<nav>
+		<!--logo-->
+			<a href="#" class="logo">Portfolio</a>
+			<!--menu-->
+			<ul>
+			<li><a href="index.html" class="active">主頁</a></li>
+			<li><a href="anotherpage.html">聯絡我</a></li>
+			<li><a href="https://www.google.com/gmail/">Gmail</a></li>
+			<li><a href="https://soundcloud.com/jimmy-wang-977745952">Soundcloud</a></li>
+			
+			</ul>
+	        </nav>
+		<!--text----------------->
+		<div class="text-conatiner">
+		<p>Hello,</p>
+		<p>IM JIMMY WANG</p>
+		<p>Im a Graphic Designer and Beat Maker</p>
+		<a href="anotherpage.html">
+		<button class="hire-bth">聯絡我</button>
+		</a>
+		<a href="https://www.instagram.com/rexmade_/">
+		<button class="down-cv">看我的作品</button>
+		</a>
+		</div>
+		<!--model--------------->
+		
+		
+	</section>
+	<!--about section----------------->
+<div class="about-container">
+	<!--img-->
+		<img src="images/me.png"/>
+	<!--about-me-text-->
+		<div class="about-text">
+		<p>About Me</p>
+		<p>Graphic Designer</p>
+		<p>我的名字叫做王鴻耀，是來自來台北的學生，平時有在進行視覺設計以及音樂製作的工作，有興趣的話歡迎與我聯絡.</p>
+		<p>My name is Jimmy Wang. I am a student from Taipei. I usually work on visual design and music production. If you are interested, please contact me.</p>
+		<a href="anotherpage.html">
+		<button>聯絡我</button>
+		</a>
+		<a href="https://www.instagram.com/rexmade_/">
+		<button>看我的作品</button>
+		</a>
+		</div>
+	</div>
+	<!--services------------------------>
+	<div class="services ">
+		<!--text-->
+		<div class="services-text ">
+	<p>設計服務</p>
+	<p>Design</p>
+	<p>如果有任何視覺設計以及音樂製作的需求及工作歡迎聯絡我.</p>
+	  </div>
+		<div class="box-container">
+		<!--1------------->
+			<div class="box-1">
+			<span>1</span>
+			<p class="heading">Design</p>
+			<p class="details">視覺設計.</p>
+			<button>敬請期待</button>
+			</div>
+	   <!--2------------->
+			<div class="box-2">
+			<span>2</span>
+			<p class="heading">Streetart</p>
+			<p class="details">街頭插畫.</p>
+			<button>敬請期待</button>
+			</div>
+		<!--3------------->
+			<div class="box-3">
+			<span>3</span>
+			<p class="heading">Music</p>
+			<p class="details">音樂製作.</p>
+			<button>敬請期待</button>
+			</div>
+		</div>
+	</div>
+	
+	<!--if you have any project in your mind contact me-->
+<div class="contact-me">
+		<p>有任何計畫歡迎與我聯絡</p>
+		<button>COMING SOON</button>
+	</div>
+	
+	
+   <!--footer--------------->
+<footer>
+	 <!--heading-->
+  <p>REX STUDIO</p>
+	 <!--paragraph-->
+	 <p>視覺設計，平面繪畫，音樂製作</p>
+	 <!--social-->
+	<div class="social-icons">
+	<a href="https://www.facebook.com/REXbeatTaiwan"><i class="fab fa-facebook-f"></i></a>
+	<a href="https://twitter.com/Jim_776"><i class="fab fa-twitter"></i></a>
+	<a href="https://www.instagram.com/rexmade_/"><i class="fab fa-instagram"></i></a>
+	<a href="https://www.youtube.com/channel/UCti4Zl1ugfc-Q8jJwFQrvhw"><i class="fab fa-youtube"></i></a>
+	</div>
+	 <!--copyright-->
+	 <p class="copyright">Copyright by REXMADE</p>
+</footer>
+	<!--social-attach-bar-->
+	<div class="social">
+	<a href="https://www.facebook.com/REXbeatTaiwan"><i class="fab fa-facebook-f"></i></a>
+	<a href="https://twitter.com/Jim_776"><i class="fab fa-twitter"></i></a>
+	<a href="https://www.instagram.com/rexmade_/"><i class="fab fa-instagram"></i></a>
+	<a href="https://www.youtube.com/channel/UCti4Zl1ugfc-Q8jJwFQrvhw"><i class="fab fa-youtube"></i></a>
+	</div>
+  
+	<!--JQUery-------------------->
+<script type="text/javascript" src="js/JQuery.js"></script>
+<script type="text/javascript">
+$(document).ready(function(){
+		$('.toggle').click(function(){
+			$('.toggle').toggleClass('active')
+			$('nav').toggleClass('active')
+		})
+	})
+</script>
+</body>
+</html>
